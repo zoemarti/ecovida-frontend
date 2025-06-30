@@ -1,0 +1,18 @@
+body {
+    background-color: darkolivegreen;
+}
+
+h1 {
+    text-align:left;
+    margin-left: 90px;
+    color:aliceblue;
+}
+
+ul {
+    text-align:center;
+    color:darkgoldenrod;
+}
+
+div {
+    text-align: center;
+}
