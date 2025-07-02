@@ -7,18 +7,12 @@
     <link rel="stylesheet" href="estilo.css" />
     <link rel="stylesheet" href="painelvivodosecossistemas.css" />
 </head>
-<body>
+<body onload="buscarBiomas('resultado')">
     <h1>Painel vivo dos ecossistemas</h1>
-    <ul>
-        <li>Amazônia</li>
-        <li>Cerrado</li>
-        <li>Mata Atlântica</li>
-        <li>Caatinga</li>
-        <li>Pampa</li>
-        <li>Pantanal</li>
-    </ul>
+    <div id="resultado"></div>
     <div>
         <img src="image 1.jpg" alt="Mapa Brasil (Preto e Branco).">
     </div>
+    <script src="buscaDados.js"></script>
 </body>
 </html>
