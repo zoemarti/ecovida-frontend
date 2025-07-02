@@ -1,11 +1,11 @@
 h1 {
-    color: red
+    color: #402c13;
 }
 h2 {
-    color: white
+    color: #495834;
 }
 body {
-    background-color: #42c995;
+    background-color: #d9c6b0;
 }
 ul {
     color: blue;
@@ -13,4 +13,8 @@ ul {
     li {
         margin-top: 20px;
     }
+}
+
+.banner {
+    background-color: red;
 }
