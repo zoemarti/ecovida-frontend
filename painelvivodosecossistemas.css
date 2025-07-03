@@ -1,0 +1,20 @@
+body {
+    background-color: #d9c6b0
+
+    ;
+}
+
+h1 {
+    text-align:left;
+    margin-left: 90px;
+    color:aliceblue;
+}
+
+ul {
+    text-align:center;
+    color:darkgoldenrod;
+}
+
+div {
+    text-align: center;
+}

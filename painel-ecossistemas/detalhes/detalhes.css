@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 20px;
+
+  img {
+    width: 40px;
+  }
+
+  .fauna {
+    background-color: aquamarine;
+    width: 200px;
+    min-height: 400px;
+  }
+
+  .flora {
+    background-color: darkseagreen;
+    width: 200px;
+    min-height: 400px;
+  }
+
+  .curiosidades {
+    background-color: lightcoral;
+    width: 200px;
+    min-height: 400px;
+  }
+}
