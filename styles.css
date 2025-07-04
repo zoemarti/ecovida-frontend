@@ -24,7 +24,7 @@ body{
   left:20px;
   font-size:2.8rem;
   font-weight:700;
-  color:#fff;
+  color:#90BC2B;
   text-shadow:0 2px 6px rgba(0,0,0,.5);
 }
 
@@ -163,7 +163,7 @@ html {
   color:#fff;
   text-align:center;
   padding:20px;
-  margin-top:40px;
+  margin-top:10px;
 }
 
 
@@ -266,4 +266,89 @@ html {
 
 .btn-ajudar:hover {
   background-color: #005f3a;
+}
+
+.especies-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.especies-section h1 {
+  font-size: 2rem;
+  color: #007a4d;
+  margin-bottom: 20px;
+}
+
+.especies-section h2 {
+  font-size: 1.5rem;
+  color: #004d33;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.especies-section p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.especies-section ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.especies-section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.card-especies {
+  background-color: #f3fbf7;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-especies h1,
+.card-especies h2 {
+  color: #007a4d;
+  margin-bottom: 16px;
+}
+
+.card-especies p,
+.card-especies ul {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contato-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contato-section h1 {
+  font-size: 2rem;
+  color: #007a4d;
+  margin-bottom: 20px;
+}
+
+.contato-section .intro {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.formulario-container {
+  border: 1px solid #cceee0;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f0f9f5;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
