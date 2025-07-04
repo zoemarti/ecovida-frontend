@@ -2,15 +2,16 @@
 margin:0;padding:0;box-sizing:border-box;}
 body{
   font-family:Arial,Helvetica,sans-serif;
-  color:#333;
+  color:#592C19;
   background:#f9faf7;
+  margin: 0px;
 }
 
 /* --- Banner --- */
 .banner{
   position:relative;
   width:100%;
-  height:320px;          
+  height:330px;          
   overflow:hidden;
 }
 .banner img{
@@ -44,7 +45,7 @@ body{
   border-radius: 10px;
   padding: 20px;
   text-decoration: none;         
-  color: #333;                   
+  color: #592C19;                   
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -132,7 +133,7 @@ body{
 .blog-post p {
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #444;
+  color: #592C19;
 }
 
 .blog-post:hover {
@@ -160,9 +161,9 @@ html {
 /* --- Rodapé --- */
 .rodape{
   background:#007a4d;
-  color:#fff;
+  color:#D9BFA0;
   text-align:center;
-  padding:20px;
+  padding:5px;
   margin-top:10px;
 }
 
@@ -211,7 +212,7 @@ html {
 
 .ajudar-section .intro {
   font-size: 1rem;
-  color: #444;
+  color: #592C19;
   margin-bottom: 40px;
   max-width: 700px;
   margin-left: auto;
@@ -245,7 +246,7 @@ html {
 .opcao p {
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #444;
+  color: #592C19;
 }
 
 .destaque {
@@ -273,7 +274,7 @@ html {
   margin: 60px auto;
   padding: 0 20px;
   line-height: 1.7;
-  color: #333;
+  color: #592C19;
 }
 
 .especies-section h1 {
@@ -322,7 +323,7 @@ html {
 .card-especies p,
 .card-especies ul {
   font-size: 1rem;
-  color: #333;
+  color: #592C19;
   line-height: 1.6;
 }
 
@@ -341,7 +342,7 @@ html {
 
 .contato-section .intro {
   font-size: 1rem;
-  color: #444;
+  color: #592C19;
   margin-bottom: 40px;
 }
 
@@ -352,3 +353,24 @@ html {
   background-color: #f0f9f5;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
+.botao-ecossistemas {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-conhecer {
+  display: inline-block;
+  background-color: #007a4d;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-conhecer:hover {
+  background-color: #005c39;
+}
+
