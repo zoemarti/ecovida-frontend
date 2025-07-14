@@ -394,7 +394,7 @@ html {
   margin-bottom: 30px;
   border-radius: 8px;
   font-size: 0.98rem;
-  color: #333;
+  color: #592C19;
   text-align: left;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
@@ -406,7 +406,7 @@ html {
 .painel-resgates .intro {
   font-size: 1rem;
   margin-bottom: 30px;
-  color: #444;
+  color: #592C19;
 }
 
 .resgate-cards {
@@ -469,4 +469,44 @@ html {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.educacao-ambiental {
+  background-color: #f3fbf6;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.educacao-ambiental h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2d6a4f;
+}
+
+.educacao-ambiental p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  color: #592C19;
+}
+
+.cards-educacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-educ {
+  background-color: #ffffff;
+  border-left: 5px solid #007a4d;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card-educ:hover {
+  transform: scale(1.02);
 }
