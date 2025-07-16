@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    Painel de ecossistemas
-    <link rel="stylesheet" href="styles.css" />
+    <title>Painel de ecossistemas</title>
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="./painel.css" />
   </head>
   <body>
+    <a href="/">Voltar</a>
     <div class="container">
       <ul>
-        <li>Amazônia</li>
-        <li>Cerrado</li>
-        <li>Mata Atlântica</li>
-        <li>Caatinga</li>
-        <li>Pampa</li>
-        <li>Pantanal</li>
+        <li>
+          <button onclick="carregarConteudo('amazonia')">Amazônia</button>
+        </li>
+        <li>
+          <button onclick="carregarConteudo('cerrado')">Cerrado</button>
+        </li>
+        <li>
+          <button onclick="carregarConteudo('mata-atlantica')">
+            Mata Atlântica
+          </button>
+        </li>
+        <li>
+          <button onclick="carregarConteudo('caatinga')">Caatinga</button>
+        </li>
+        <li>
+          <button onclick="carregarConteudo('pampa')">Pampa</button>
+        </li>
+        <li>
+          <button onclick="carregarConteudo('pantanal')">Pantanal</button>
+        </li>
       </ul>
       <div class="mapa">
-        <div class="imagem">mapa</div>
-        <div class="descricao">descrição com saiba mais</div>
+        <div class="imagem">
+          <img src="./biomas-do-brasil.png" alt="Mapa de biomas do Brasil" />
+        </div>
+        <p id="conteudo">Selecione um bioma ao lado.</p>
       </div>
     </div>
+    <script src="./painel.js"></script>
   </body>
 </html>
