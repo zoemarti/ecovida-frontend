@@ -2,28 +2,25 @@
 <html lang="pt-BR">
 
 <head>
-  Painel de ecossistemas
-  <link rel="stylesheet" href="styles.css" />
+  <title> Painel dos ecossistemas </title>
+  <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="./painel.css" />
 </head>
 
 <body>
   <div class="container">
     <ul>
-      <li> <button onclick="carregarConteudo('amazonia')"> Amazônia </button> </li>
-      <li> <button onclick="carregarConteudo('cerrado')"> Cerrado </button> </li>
-      <li> <button onclick="carregarConteudo('mata atlantica')"> Mata Atlântica </button> </li>
-      <li> <button onclick="carregarConteudo('caatinga')"> Caatinga </button> </li>
-      <li>  <button onclick="carregarConteudo('pampa')"> Pampa </button> </li>
-      <li> <button onclick="carregarConteudo('pantanal')"> Pantanal </button> </li>
+      <li> <button onclick="carregarConteudo('amazonia')" class="btn-conhecer"> Amazônia </button> </li>
+      <li> <button onclick="carregarConteudo('cerrado')" class="btn-conhecer"> Cerrado </button> </li>
+      <li> <button onclick="carregarConteudo('mata-atlantica')" class="btn-conhecer"> Mata Atlântica </button> </li>
+      <li> <button onclick="carregarConteudo('caatinga')" class="btn-conhecer"> Caatinga </button> </li>
+      <li>  <button onclick="carregarConteudo('pampa')" class="btn-conhecer"> Pampa </button> </li>
+      <li> <button onclick="carregarConteudo('pantanal')" class="btn-conhecer"> Pantanal </button> </li>
     </ul>
     <div class="mapa">
-      <div class="imagem">mapa</div>
-      <div class="descricao">descrição com saiba mais</div>
-      <p id="conteudo"> Selecione um bioma ao lado. </p>
+      <p id="conteudo" class="painel-resgates">Selecione um bioma ao lado.</p>
     </div>
   </div>
   <script src="./painel.js"> </script>
 </body>
-
 </html>
