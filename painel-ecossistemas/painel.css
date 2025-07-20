@@ -31,11 +31,20 @@ body{
   display: flex;
   ul {
     margin-right: 30px;
+    list-style: none;
+    margin-top: 140px;
+
+  }
+  button {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 20px;
+
   }
 }
 
 .mapa {
-  border: 1px solid black;
   flex: 1;
 
   .imagem {
@@ -44,6 +53,11 @@ body{
   }
 
   .descricao {
-    border: 1px solid blue;
+    margin: 0 100px 20px 100px;
   }
 }
+
+img {
+  width: 65%;
+}
+
