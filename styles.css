@@ -9,39 +9,31 @@ body{
 
 /* Banner */
 .banner {
-  background-image: url('https://www.greenpeace.org/static/planet4-brasil-stateless/2024/05/5b07ea98-floresta-amazonica-1024x682.jpg'); /* imagem do seu banner */
+  background-image: url('https://www.greenpeace.org/static/planet4-brasil-stateless/2024/05/5b07ea98-floresta-amazonica-1024x682.jpg'); /* Substitua pelo seu banner real */
   background-size: cover;
   background-position: center;
   padding: 20px;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/* Bloco vertical com logo e texto */
-.logo-bloco {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-/* Logo */
-.logo {
   height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-/* Container do texto */
+/* Logo (fora do container) */
+.logo {
+  height: 245px;
+}
+
+/* Container apenas do texto */
 .text-container {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 6px 16px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
   border-radius: 12px;
 }
 
-/* Texto do site */
+/* Título com link */
 .site-title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   color: #90BC2B;
   font-family: 'Arial', sans-serif;
@@ -49,7 +41,7 @@ body{
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Efeito hover */
+/* Hover no texto */
 .site-title:hover {
   transform: translateY(-4px);
   color: white;
@@ -76,7 +68,7 @@ body{
   max-width: 280px;
   background: #ffffff;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   text-decoration: none;         
   color: #592C19;                   
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
