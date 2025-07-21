@@ -12,37 +12,30 @@
 <header class="banner">
   <img src="ecovida/logo-ecovida-1.png" alt="Logo Ecovida" class="logo">
   <div class="text-container">
-    <a href="index.html" class="site-title">Ecovida</a>
+    <a href="painel.html" class="site-title">Ecovida</a>
   </div>
 </header>
 
-    <div class="container">
-      <ul>
-        <li>Amazônia</li>
-        <li>Cerrado</li>
-        <li>Mata Atlântica</li>
-        <li>Caatinga</li>
-        <li>Pampa</li>
-        <li>Pantanal</li>
-      </ul>
-      <div class="mapa">
-        <div class="imagem">mapa</div>
-        <div class="descricao">descrição com saiba mais</div>
-      </div>
-
-  <div class="container">
-    <ul>
-      <li> <button onclick="carregarConteudo('amazonia')" class="btn-conhecer"> Amazônia </button> </li>
-      <li> <button onclick="carregarConteudo('cerrado')" class="btn-conhecer"> Cerrado </button> </li>
-      <li> <button onclick="carregarConteudo('mata-atlantica')" class="btn-conhecer"> Mata Atlântica </button> </li>
-      <li> <button onclick="carregarConteudo('caatinga')" class="btn-conhecer"> Caatinga </button> </li>
-      <li>  <button onclick="carregarConteudo('pampa')" class="btn-conhecer"> Pampa </button> </li>
-      <li> <button onclick="carregarConteudo('pantanal')" class="btn-conhecer"> Pantanal </button> </li>
-    </ul>
-    <div class="mapa">
-      <p id="conteudo" class="painel-resgates">Selecione um bioma ao lado.</p>
-    </div>
+<div class="painel-container">
+  <div class="botoes-ecossistemas">
+    <button onclick="abrirPainel('amazonia')">Amazônia</button>
+    <button onclick="abrirPainel('cerrado')">Cerrado</button>
+    <button onclick="abrirPainel('mata')">Mata Atlântica</button>
+    <button onclick="abrirPainel('costa')">Caatinga</button>
+    <button onclick="abrirPainel('costa')">Pampa</button>
+    <button onclick="abrirPainel('costa')">Pantanal</button>
   </div>
+
+  <div class="card-ecossistema" id="card">
+    <!-- Conteúdo dinâmico aparece aqui -->
+  </div>
+
+</div>
+
   <script src="./painel.js"> </script>
+
+  <footer class="rodape">
+    <p>&copy; 2025 Ecovida. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>

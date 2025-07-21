@@ -9,7 +9,7 @@ body{
 
 /* Banner */
 .banner {
-  background-image: url('https://www.greenpeace.org/static/planet4-brasil-stateless/2024/05/5b07ea98-floresta-amazonica-1024x682.jpg'); /* Substitua pelo seu banner real */
+  background-image: url('https://www.greenpeace.org/static/planet4-brasil-stateless/2024/05/5b07ea98-floresta-amazonica-1024x682.jpg');
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -21,7 +21,7 @@ body{
 
 /* Logo (fora do container) */
 .logo {
-  height: 245px;
+  height: 250px;
 }
 
 /* Container apenas do texto */
