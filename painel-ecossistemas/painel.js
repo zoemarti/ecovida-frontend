@@ -29,84 +29,9 @@ const ecossistemas = {
       texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
       img: "../img/cerrado.jpg"
     },
-    especies: [
-      {
-        nome: "Lobo-guará",
-        cientifico: "Chrysocyon brachyurus",
-        status: "Vulnerável",
-        curiosidade: "Tem patas longas para caminhar na vegetação alta.",
-        img: "img/lobo.jpg"
-      }
-    ]
+    
   }
 
-  mata: {
-    descricao: {
-      titulo: "Mata Atlântica",
-      texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
-      img: "../img/mataatlantica.jpg"
-    },
-    especies: [
-      {
-        nome: "Lobo-guará",
-        cientifico: "Chrysocyon brachyurus",
-        status: "Vulnerável",
-        curiosidade: "Tem patas longas para caminhar na vegetação alta.",
-        img: "img/lobo.jpg"
-      }
-    ]
-  }
-
-  caatinga: {
-    descricao: {
-      titulo: "Caatinga",
-      texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
-      img: "../img/caatinga.jpg"
-    },
-    especies: [
-      {
-        nome: "Lobo-guará",
-        cientifico: "Chrysocyon brachyurus",
-        status: "Vulnerável",
-        curiosidade: "Tem patas longas para caminhar na vegetação alta.",
-        img: "img/lobo.jpg"
-      }
-    ]
-  }
-
-  pampa: {
-    descricao: {
-      titulo: "Pampa",
-      texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
-      img: "../img/pampa.jpg"
-    },
-    especies: [
-      {
-        nome: "Lobo-guará",
-        cientifico: "Chrysocyon brachyurus",
-        status: "Vulnerável",
-        curiosidade: "Tem patas longas para caminhar na vegetação alta.",
-        img: "img/lobo.jpg"
-      }
-    ]
-  }
-
-  pantanal: {
-    descricao: {
-      titulo: "Pantanal",
-      texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
-      img: "../img/pantanal.jpg"
-    },
-    especies: [
-      {
-        nome: "Lobo-guará",
-        cientifico: "Chrysocyon brachyurus",
-        status: "Vulnerável",
-        curiosidade: "Tem patas longas para caminhar na vegetação alta.",
-        img: "img/lobo.jpg"
-      }
-    ]
-  }
 
   // Adicione mais ecossistemas...
 };
