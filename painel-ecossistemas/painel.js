@@ -24,14 +24,52 @@ const ecossistemas = {
   },
 
   cerrado: {
-    descricao: {
-      titulo: "Cerrado",
-      texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
-      img: "../img/cerrado.jpg"
+  descricao: {
+    titulo: "Cerrado",
+    texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
+    img: "../img/cerrado.jpg"
+  },
+  especies: [
+    {
+      nome: "Lobo-guará",
+      cientifico: "Chrysocyon brachyurus",
+      status: "Quase ameaçado",
+      curiosidade: "Tem pernas longas e aparência de raposa.",
+      img: "img/lobo.jpg"
     },
-    
-  }
+    {
+      nome: "Tamanduá-bandeira",
+      cientifico: "Myrmecophaga tridactyla",
+      status: "Vulnerável",
+      curiosidade: "Pode comer até 30 mil formigas por dia!",
+      img: "img/tamandua.jpg"
+    }
+  ]
+},
 
+mataatlantica: {
+  descricao: {
+    titulo: "Mata atlantica",
+    texto: "O segundo maior bioma do Brasil, conhecido por sua vegetação retorcida, nascentes e diversidade de aves.",
+    img: "../img/mataatlantica.jpg"
+  },
+  especies: [
+    {
+      nome: "Lobo-guará",
+      cientifico: "Chrysocyon brachyurus",
+      status: "Quase ameaçado",
+      curiosidade: "Tem pernas longas e aparência de raposa.",
+      img: "img/lobo.jpg"
+    },
+    {
+      nome: "Tamanduá-bandeira",
+      cientifico: "Myrmecophaga tridactyla",
+      status: "Vulnerável",
+      curiosidade: "Pode comer até 30 mil formigas por dia!",
+      img: "img/tamandua.jpg"
+    }
+  ]
+},
 
   // Adicione mais ecossistemas...
 };
