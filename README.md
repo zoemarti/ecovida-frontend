@@ -11,11 +11,6 @@ E porque juntos, podemos transformar!
 
 Frontend é a parte visual de um site ou aplicativo, tudo o que o usuário vê e interage diretamente. Envolve o design, os botões, menus, animações e a estrutura da página. É desenvolvido com linguagens como HTML, CSS e JavaScript, e seu objetivo é proporcionar uma experiência agradável, funcional e intuitiva para quem acessa. É o que dá “cara” ao sistema.
 
-## Por que usamos um front-end e um back-end?
-
-TODO: descrever a diferença entre front-end e back-end, e por que decidimos ter ambos neste projeto
-
-A principal diferença entre front-end e back-end está em onde e como cada parte atua. O front-end, é o lado visual do site ou aplicativo, o que o usuário vê e com o que interage. Envolve design, layout e comportamento da interface, usando HTML, CSS e JavaScript. E o back-end, é o lado invisível, que roda no servidor. Cuida da lógica, banco de dados, segurança e processamento das informações. Usa linguagens como Python, Node.js, PHP, Java, entre outras.
 
 ## Requisitos para rodar o front-end localmente
 
