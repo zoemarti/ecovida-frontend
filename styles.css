@@ -498,8 +498,9 @@ html {
 
 .animais-que-temos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 30px;
+  margin: 30px 100px;
 }
 
 .cards-adocao {
@@ -530,4 +531,11 @@ html {
   font-size: 0.95rem;
   margin-bottom: 6px;
 
+}
+
+.qr-code-doacao {
+  display:  flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
