@@ -17,6 +17,11 @@ body{
   gap: 20px;
 }
 
+h1 {
+text-align: center;
+margin-top: 50px;
+}
+
 /* Logo (fora do container) */
 .logo {
   height: 245px;
@@ -68,7 +73,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Ocupa altura total da tela */
+  height: 70vh; /* Ocupa altura total da tela */
   gap: 50px;
   padding: 30px;
   box-sizing: border-box;
