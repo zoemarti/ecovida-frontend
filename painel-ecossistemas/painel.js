@@ -217,14 +217,3 @@ function navegar(direcao) {
 
   mostrarSlide();
 }
-
-window.addEventListener("DOMContentLoaded", () => {
-  const card = document.getElementById("card");
-  card.innerHTML = `
-    <div class="card-slide active">
-      <img src="../img/ecossistema-default.jpg" alt="Biomas do Brasil">
-      <h2>Bem-vindo(a) ao Painel dos Ecossistemas</h2>
-      <p>Selecione um bioma nos botões ao lado para descobrir suas espécies, curiosidades e importância para o meio ambiente.</p>
-    </div>
-  `;
-});
