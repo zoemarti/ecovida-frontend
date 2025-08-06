@@ -164,20 +164,33 @@ body, html {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.card-ecossistema {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  width: 100%;
-  max-width: 500px;
+
+
+.card-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-.card-ecossistema .imagem-inicial {
+.card-slide img {
   width: 100%;
-  max-height: 250px;
+  max-width: 400px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-slide h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.card-slide p {
+  color: #444;
+  font-size: 16px;
+  max-width: 450px;
 }
